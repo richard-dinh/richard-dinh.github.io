@@ -166,14 +166,21 @@ a {
       .site-hero h1 {
         font-size: 70px; } }
   .site-hero h1, .site-hero .lead {
-    font-weight: 200;
+    font-weight: 400;
     color: #fff; }
   .site-hero .lead {
     line-height: 2; }
   .site-hero .site-subheading {
     max-width: 640px;
+    font-size: 2rem;
     margin: 0 auto;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, .8); 
+  }
+  @media (max-width: 768px){
+    .site-hero .site-subheading {
+      font-size: 1.5rem;
+    }
+  }
 
 .site-section {
   padding: 5em 0; }
@@ -205,7 +212,7 @@ a {
     transform: translateX(-50%); }
 
 .lead {
-  font-weight: 200;
+  font-weight: 500;
   line-height: 1.5; }
 
 .site-service-item .icon {
